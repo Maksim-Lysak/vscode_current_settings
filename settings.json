@@ -1,0 +1,105 @@
+{
+	/* STARTUP */
+	"workbench.startupEditor": "newUntitledFile",
+	/* EDITOR CONFIG*/
+	// font settings
+	"editor.fontSize": 18,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	// other editor config
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/__?_",
+	/* TERMINAL CONFIG */
+	"terminal.integrated.fontSize": 16,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"explorer.compactFolders": false,
+	"window.menuBarVisibility": "toggle",
+	/* FORMAT DOCUMENT */
+	"editor.glyphMargin": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.renderWhitespace": "all",
+	"files.trimFinalNewlines": true,
+	"editor.detectIndentation": false,
+	"files.trimTrailingWhitespace": true,
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	// default formater
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// tab settings
+	"editor.tabSize": 2,
+	// wrap word
+	"diffEditor.wordWrap": "on",
+	"editor.wordWrapColumn": 68,
+	"editor.wordWrap": "wordWrapColumn",
+	/* SECURITY SETTINGS */
+	"security.workspace.trust.enabled": false,
+	/* NOTICE AND GIFTS */
+	"update.showReleaseNotes": false,
+	"editor.parameterHints.enabled": false,
+	"editor.hover.enabled": false,
+	/* OTHER SETTINGS*/
+	"files.eol": "\n",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	/* PLUGIN SETTINGS */
+	// prettier
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	// ecsstractor
+	"ecsstractor_port.add_comment": false,
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	// live server
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	//telemetry
+	"telemetry.telemetryLevel": "off",
+	// add empti line
+	"files.insertFinalNewline": true,
+	//	completition tab on
+	"editor.tabCompletion": "on",
+	"emmet.triggerExpansionOnTab": true,
+	"notebook.breadcrumbs.showCodeCells": false,
+	"breadcrumbs.enabled": false,
+	"editor.inlayHints.enabled": "off",
+	"prettier.trailingComma": "none",
+	"prettier.bracketSameLine": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	// "[css]": {
+	// 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+	// },
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "One Dark Pro",
+	"explorer.confirmDelete": false,
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "css",
+			"savePathReplacementPairs": null
+		}
+	],
+	"window.zoomLevel": 2
+}
